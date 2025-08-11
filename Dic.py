@@ -58,7 +58,6 @@ def open_about_window():
     about.title("About")
     about.geometry("300x200")
     about.config(bg=BACKGROUND)
-    about.iconbitmap(r"About.ico")
 
     Label(about, text="📘 Dictionary App", font=("Segoe UI", 16, "bold"), bg=BACKGROUND, fg=TEXT_COLOR).pack(pady=10)
     Label(about, text="Created by:\nVaibhav", bg=BACKGROUND, fg=TEXT_COLOR, font=FONT).pack(pady=5)
@@ -80,7 +79,6 @@ window = tk.Tk()
 window.title("Dictionary App")
 window.geometry("600x450")
 window.config(bg=BACKGROUND)
-window.iconbitmap(r"Dic.ico")
 
 tooltip = Label(window, bg="#333", fg="white", font=("Segoe UI", 9), bd=1, relief="solid")
 tooltip.place_forget()
